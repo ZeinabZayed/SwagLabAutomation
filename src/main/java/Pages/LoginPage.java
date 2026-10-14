@@ -54,7 +54,7 @@ public class LoginPage {
         enterPassword(password);
         clickOnbutton();
         try {
-            Thread.sleep(1500); // إيقاف مؤقت لمدة 1.5 ثانية
+            Thread.sleep(1500); 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
